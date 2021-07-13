@@ -1,0 +1,312 @@
+/******** start navbar *******/
+
+.bg-light {
+    background: none !important;
+    z-index: 99;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color:#000;
+    font-size: 22px;
+}
+/******** End navbar *******/
+
+/******** start slider *******/
+
+.content_slider{
+    width:100%
+}
+
+.before_slider {
+    float: left;
+    position: absolute;
+    top: 28%;
+    left: 4%;
+    z-index: 99;
+}
+.before_slider #firstname{
+    font-size: 7rem;
+    -webkit-text-stroke: 1px black; /* border for text */
+    font-family: fantasy;
+    color: rgba(255, 255, 255, 0);
+}
+.before_slider #lastname{
+    font-size: 8rem;
+    -webkit-text-stroke: 1px black;
+    font-family: fantasy;
+    color: rgba(0, 0, 0);
+}
+
+.before_slider #position_name{
+    font-size: 1rem;
+    font-family: monospace;
+    color: rgb(132 120 120);
+}
+.carousel {
+    position: relative;
+    top: -65px;
+    width: 70%;
+    float: right;
+}
+/******** End Slider *******/
+
+/******** start about section *******/
+
+.about{
+    width: 100%;
+    padding:8%;
+}
+.about .left{
+    float: left;
+    width: 40%;
+    padding:10px;
+}
+
+.about .right {
+    width: 60%;
+    float: right;
+    padding: 20px 0px 0 63px;
+}
+
+.about h1{
+    position: absolute;
+    top: 650px;
+    left: 45%;
+    font-size: 12rem;
+    color: #fff;
+    -webkit-text-stroke: 0.2px #0000006b;
+    font-family: fantasy;
+    z-index: -99;
+}
+.about h2{
+    color: #000;
+    -webkit-text-stroke: 1px #000;
+    font-family: inherit;
+    font-weight: 900;
+}
+.about h4 {
+
+        font-size: 1rem;
+        color: #a2a0a0;
+        padding: 10px 0 30px 0px;
+}
+.about p {
+    font-size: 1rem;
+    color: #a2a0a0;
+    padding: 10px 0 20px 0px;
+    line-height: 27px;
+}
+
+.about button{
+    background-color: #000;
+    padding: 15px 50px;
+    color: #fff;
+    border: 1px solid #000;
+    transition: all 0.5s ease-in-out;;
+}
+.about button:hover{
+    background-color: #fff;
+    color: #000;
+}
+/******** End about section *******/
+
+.second_slider{
+    margin-bottom: 230px;
+
+}
+.second_slider .carousel {
+        position: relative;
+        top: 0;
+        width: 100%;
+        float: right;
+    }
+
+
+/******** start featured section *******/
+    .featured{
+        margin:0px;
+        padding:0px;
+        background-color: #eaf3f55e;
+    }
+
+    .featured h1{
+        font-size: 13rem;
+    color: #fff;
+    -webkit-text-stroke: 0.5px #08080840;
+    position: relative;
+    top: 145px;
+    font-family: fantasy;
+    z-index: -99;
+    margin-bottom: 23px;
+    }
+
+    .featured ul{
+        padding: 20px 0px 0px 0;
+        margin: 17px 0px;
+        border-bottom: 1px solid #d4d1d1;
+        direction: rtl;
+    }
+    .featured ul li {
+        display: inline-block;
+        margin: 0px 12px;
+        padding-bottom: 29px;
+        cursor: pointer;
+        color: #919191;
+        font-size: 19px;
+    }
+    
+    .featured ul li.active{
+        color: rgb(14,14,14);
+        border-bottom: 3px solid #04d2c8;
+    }
+    .reset{
+        margin:0px !important;
+        padding:0px !important;
+    }
+    .featured .card{
+        width: 100% !important;
+        border: 1px solid #EEe;
+        box-shadow: 1px 3px 3px #EEE, -1px 0px 3px #EEE;
+        margin-bottom: 100px;
+    }
+    .featured .card .image{
+        overflow: hidden;
+    }
+    .featured .card img{
+        transition:all .5s ease-in-out;
+    }
+    .featured .card img:hover{
+        transform: scale(1.1,1.1);
+        cursor:pointer;
+    }
+    .featured .card h5{
+        font-size: 14px;
+        font-weight: 100;
+        color: rgb(93, 93, 93);
+        padding: 10px;
+    }
+    .featured .card a{
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 500;
+        display: inline-block;
+        padding: 10px;
+        color: rgb(45,45,45);
+        transition: all .5s ease-in-out;
+    }
+    .featured .card a:hover{
+        color:rgb(253,174,128);
+    }
+    
+    .featured .card i{
+        color:rgb(253,142,94);
+    }
+
+    .featured .card h6{
+        color: rgb(114,114,114);
+        display: inline;
+    }
+    .popfeaturedular #last{
+        margin-bottom:200px;
+    }
+    .featured #last a{
+        background: none;
+        border-radius: 25px;
+        border: 1px solid #04d2c8;
+        color: #04d2c8;
+        margin: 50px auto;
+        text-decoration: none;
+        padding: 19px 48px;
+        transition: all .5s ease-in-out; 
+    }
+    .featured #last a:hover{
+        background-color:#04d2c8;
+        color:#FFF;
+    }
+
+
+    /* start clients section */
+    .clients {
+        margin: 0 0px 235px 45px;
+    }
+.clients h1{
+    -webkit-text-stroke: 1px #0000001a;
+    color: #fff;
+    font-size: 10rem;
+    position: relative;
+    top: 115px;
+    z-index: -999;
+}
+.clients h3{
+    -webkit-text-stroke: 1px #000;
+    color: #000;
+    font-size: 2.5rem;
+    margin: 31px;
+}
+.clients .par{
+    margin: 95px 0 0 29px;
+    font-size: 1.5rem;
+    color: #9c9b9b;
+}
+p.one,p.tow,p.three{
+    position: absolute;
+    top: 20px;
+    left: 45px;}
+.clients .one{
+    position: absolute;
+    left: 165px;
+    width: 200px;
+    height: 300px;
+}
+.clients .tow{
+    position: absolute;
+    left: 375px;
+    width: 200px;
+}
+.clients .three{
+    position: absolute;
+    left: 375px;
+    width: 200px;
+    top:150px
+}
+.clients p.one,
+.clients p.tow,
+.clients p.three {
+position: absolute;
+    left: 60px;
+    top: 160px;
+}
+    /* End clients section */
+
+
+    /* start latest news section */
+    .latest_news h1{
+        position: relative;
+        top: 20px;
+        left: 30px;
+        font-size: 7rem;
+    -webkit-text-stroke: 1px #00000014;
+    color: #fff;
+    z-index: -999;
+    }
+
+    .latest_news h3{
+        margin: -60px 0 40px 52px;
+        -webkit-text-stroke: 1px #000;
+        font-family: monospace;
+        font-size: 2.5rem;
+    }
+    .latest_news .card{
+        width: 100% !important;
+    }
+    .latest_news .card .img{
+    overflow: hidden;
+    height: 285px;
+    }
+    .latest_news .card .img img{
+        transition: all 0.5s ease-in-out;
+    }
+    .latest_news .card img:hover{
+        transform: scale(1.5,1.5);
+        
+    }
+    /* End latest news section */
