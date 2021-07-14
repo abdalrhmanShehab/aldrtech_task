@@ -7,5 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Work extends Model
 {
-    use HasFactory;
+    protected $fillable = ['image','title','description'];
+    protected $table    = 'works';
+    protected $primarykey ='id';    
 }

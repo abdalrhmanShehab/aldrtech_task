@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\frontController;
+use App\Http\Controllers\dashboardController;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +16,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('Front/index');
-});
+Route::get('/', [frontController::class, 'index']);

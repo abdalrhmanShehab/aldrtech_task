@@ -7,5 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Portfilio extends Model
 {
-    use HasFactory;
+    protected $fillable =['name','data_class','image','title','text'];
+    protected $table ="portfilios";
+    protected $primarykey ='id';
 }

@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\dashboardController;
-
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,7 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-
-    Route::get('admin/image-upload', [ dashboardController::class, 'imageUpload' ])->name('image.upload');
-    Route::post('admin/image-upload', [ dashboardController::class, 'imageUploadPost' ])->name('image.upload.post');
+Route::get('/dashboard', [dashboardController::class, 'index']);

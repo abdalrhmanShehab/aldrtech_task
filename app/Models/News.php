@@ -7,5 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class News extends Model
 {
-    use HasFactory;
+    protected $fillable =['image','author','text'];    
+    protected $table ='news';  
+    protected $primarykey ='id';    
 }

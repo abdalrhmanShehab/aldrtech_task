@@ -15,6 +15,11 @@ class CreatePortfiliosTable extends Migration
     {
         Schema::create('portfilios', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('data_class');
+            $table->string('image');
+            $table->string('ttile');
+            $table->string('text');
             $table->timestamps();
         });
     }
