@@ -13,33 +13,18 @@
     
 @include('includes.navbar')
 @include('includes.slider')
+
 <div class="clearfix"></div>
 
-<div class="about">
-    <div class="left">
-        <img src="{{asset('images/7.jpg')}}" alt="" width="100%" height="100%">
-    </div>
-    <div class="right">
-        <h1>ABOUT</h1>
-        <div class="contet_right">
-            <h2>ABDALRHMAN SHEHAB</h2>
-            <h4>Web Developer & Web Design</h4>
-            <hr>
-            <p>I am Abdalrhman Shehab , Iam 25 yeas , Iam palastenian syrian ,web Developer and Web Design ,with 1.5 years experience<br> Iam 4th in BAIT in syrian virtual university</p>
-        </div>
-        <button>Learn More</button>
-    </div>
-    
-</div>
+@include('includes.about')
+
 <div class="clearfix"></div>
 
-<div class="second_slider">
-    @include('includes.second_slider')
-</div>
+@include('includes.work')
 
-    @include('includes.featured_work')
+@include('includes.featured_work')
 
-    <section class="clients">
+    {{-- <section class="clients">
         <h1>TESTIMONIAL</h1>
             <h3>What Cleints Say</h3>
         <div class="row">
@@ -55,9 +40,9 @@
                 <img src="{{asset('images/6.jpg')}}" data-class=".three" class="three img" width="150px" height="150px">
             </div>
         </div>
-    </section>
+    </section> --}}
 
-    <section class="latest_news">
+    {{-- <section class="latest_news">
         <h1>LATEST NEWS</h1>
         <h3>Latest News</h3>
         <div class="row justify-content-center mx-auto">
@@ -106,7 +91,7 @@
                   </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -127,14 +112,8 @@
   </div>
 
   
-    <section class="contact">
-        <p></p>
-        <div class="row">
-            <div class="col">form</div>
-            <div class="col">google map</div>
-        </div>
 
- @include('includes.footer')
+
 
     </section>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js	"></script>

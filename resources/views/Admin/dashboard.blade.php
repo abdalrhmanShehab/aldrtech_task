@@ -48,23 +48,23 @@
                     </a>
                     <ul class="cat-sub-menu">
                         <li>
-                            <a href="#">Slider Images</a>
+                            <a href="{{route('dashboard.createSlider')}}">Slider Images</a>
                         </li>
                         <li>
-                            <a href="#">ABOUT</a>
+                            <a href="{{route('dashboard.createAbout')}}">ABOUT</a>
                         </li>
                         <li>
-                          <a href="#">Workes</a>
+                          <a href="{{route('dashboard.createWork')}}">Workes</a>
                       </li>
                       <li>
-                          <a href="#">PORTFILIO</a>
+                          <a href="{{route('dashboard.createPortfilio')}}">PORTFILIO</a>
                       </li>
                               
                       <li>
-                        <a href="#">Cleints says</a>
+                        <a href="{{route('dashboard.createClient')}}">Cleints says</a>
                       </li>
                       <li>
-                        <a href="#">Latest News</a>
+                        <a href="{{route('dashboard.createNews')}}">Latest News</a>
                       </li>
                     </ul>
                 </li>
@@ -86,6 +86,7 @@
       <div class="container">
         <h2 class="main-title">Dashboard</h2>
 
+        @yield('content')
 
       </div>
     </main>

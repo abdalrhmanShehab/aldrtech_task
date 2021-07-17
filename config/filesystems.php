@@ -40,8 +40,37 @@ return [
             'root' => storage_path('app/public'),
             'url' => env('APP_URL').'/storage',
             'visibility' => 'public',
+        ], 
+        'slider' => [
+            'driver' => 'local',
+            'root' => 'app/public/images/slider/',
+            'url' => env('APP_URL').'/public',
+            'visibility' => 'public',
         ],
-
+        'About' => [
+            'driver' => 'local',
+            'root' => 'app/public/images/About/',
+            'url' => env('APP_URL').'/public',
+            'visibility' => 'public',
+        ],
+        'Work' => [
+            'driver' => 'local',
+            'root' => 'app/public/images/Work/',
+            'url' => env('APP_URL').'/public',
+            'visibility' => 'public',
+        ],        
+        'Portfilio' => [
+            'driver' => 'local',
+            'root' => 'app/public/images/Portfilio/',
+            'url' => env('APP_URL').'/public',
+            'visibility' => 'public',
+        ],
+        'News' => [
+            'driver' => 'local',
+            'root' => 'app/public/images/News/',
+            'url' => env('APP_URL').'/public',
+            'visibility' => 'public',
+        ],
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_ACCESS_KEY_ID'),

@@ -109,16 +109,11 @@
 }
 /******** End about section *******/
 
-.second_slider{
+.work{
     margin-bottom: 230px;
 
 }
-.second_slider .carousel {
-        position: relative;
-        top: 0;
-        width: 100%;
-        float: right;
-    }
+
 
 
 /******** start featured section *******/
