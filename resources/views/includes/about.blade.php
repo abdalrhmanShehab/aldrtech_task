@@ -1,4 +1,4 @@
-<div class="about">
+<div class="about" id="about">
     <div class="left">
         @foreach ($about as $item)
         <img src="/images/About/{{$item->image}}" alt="" width="100%" height="80%">

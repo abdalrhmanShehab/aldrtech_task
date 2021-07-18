@@ -1,4 +1,4 @@
-<div class="content_slider">
+<div class="content_slider" id="slider">
   <div class="before_slider">
     <h1 id="firstname">ABDALRHMAN</h1>
     <h2 id="lastname">SHEHAB</h2>

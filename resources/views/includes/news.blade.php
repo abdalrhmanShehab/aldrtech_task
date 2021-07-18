@@ -1,4 +1,4 @@
-<section class="latest_news">
+<section class="latest_news" id="news">
         <h1>LATEST NEWS</h1>
         <h3>Latest News</h3>
         <div class="row justify-content-center mx-auto">
