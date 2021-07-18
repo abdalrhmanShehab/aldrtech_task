@@ -25,7 +25,7 @@ class portfilioRequest extends FormRequest
     {
         return [
             'name'=> 'required',
-            'data-class'=> 'required',
+            'data_class'=> 'required',
             'description'=> 'required',
             'title'=> 'required',
             'text'=> 'required',
@@ -37,7 +37,7 @@ class portfilioRequest extends FormRequest
     {
         return [
             'name.required' => 'image required',
-            'data-class.required' => 'data-class required',
+            'data_class.required' => 'data-class required',
             'description.required' => 'description required',
             'title.required' => 'title required',
             'text.required' => 'text required',

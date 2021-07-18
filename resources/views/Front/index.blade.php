@@ -24,76 +24,13 @@
 
 @include('includes.featured_work')
 
-    {{-- <section class="clients">
-        <h1>TESTIMONIAL</h1>
-            <h3>What Cleints Say</h3>
-        <div class="row">
-            <div class="col-6" style="position: relative">
-               <div class="par activepar"> <p class='one'>one one one one one one one</p></div>
-               <div class="par" style="display: none"> <p class='tow'>tow tow tow otwo two tow</p></div>
-               <div class="par" style="display: none"> <p class='three'>three three three </p></div>
-                
-            </div>
-            <div class="col-6" style="position: relative">
-                <img src="{{asset('images/4.jpg')}}" data-class=".one" class="active one img" width="150px" height="150px">
-                <img src="{{asset('images/5.jpg')}}" data-class=".tow" class="tow img" width="150px" height="150px">
-                <img src="{{asset('images/6.jpg')}}" data-class=".three" class="three img" width="150px" height="150px">
-            </div>
-        </div>
-    </section> --}}
+@include('includes.client')
 
-    {{-- <section class="latest_news">
-        <h1>LATEST NEWS</h1>
-        <h3>Latest News</h3>
-        <div class="row justify-content-center mx-auto">
-            <div class="col mx-auto">
-                <div class="card" style="width: 18rem;">
-                    <div class="img">
-                        <div class="img">
-                            <a  data-bs-toggle="modal" data-bs-target="#exampleModal">
-                             <img src="{{asset('images/8.jpg')}}" class="card-img-top" alt="...">
-                             </a>
-                         </div>                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title" style="color:rgb(151, 150, 150)">By alex</h5>
-                      <hr>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col mx-auto">
-                <div class="card" style="width: 18rem;">
-                    <div class="img">
-                       <a  data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        <img src="{{asset('images/9.jpg')}}" class="card-img-top" alt="...">
-                        </a>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title" style="color:rgb(151, 150, 150)">By alex</h5>
-                        <hr>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      </div>
-                  </div>
-            </div>
-            <div class="col mx-auto">
-                <div class="card" style="width: 18rem;">
-                    <div class="img">
-                        <div class="img">
-                            <a  data-bs-toggle="modal" data-bs-target="#exampleModal">
-                             <img src="{{asset('images/10.jpg')}}" class="card-img-top" alt="...">
-                             </a>
-                         </div>                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title" style="color:rgb(151, 150, 150)">By alex</h5>
-                        <hr>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      </div>
-                  </div>
-            </div>
-        </div>
-    </section> --}}
+@include('includes.news')
+
+@include('includes.contact')
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+{{-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -109,9 +46,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> --}}
 
-  
+  @include('includes.footer')
 
 
 

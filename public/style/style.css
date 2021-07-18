@@ -109,9 +109,8 @@
 }
 /******** End about section *******/
 
-.work{
-    margin-bottom: 230px;
-
+.work {
+    margin: 100px 0;
 }
 
 
@@ -121,17 +120,23 @@
         margin:0px;
         padding:0px;
         background-color: #eaf3f55e;
+        position: relative;
     }
 
-    .featured h1{
+    .featured h1 {
         font-size: 13rem;
-    color: #fff;
-    -webkit-text-stroke: 0.5px #08080840;
-    position: relative;
-    top: 145px;
-    font-family: fantasy;
-    z-index: -99;
-    margin-bottom: 23px;
+        color: #fff;
+        -webkit-text-stroke: 0.5px #08080840;
+        font-family: fantasy;
+        z-index: -99;
+        padding-left: 50px;
+    }
+    .featured h2 {
+        position: absolute;
+        top: 130px;
+        left: 80px;
+        font-size: 3rem;
+        font-family: fantasy;
     }
 
     .featured ul{
@@ -221,31 +226,37 @@
 
     /* start clients section */
     .clients {
-        margin: 0 0px 235px 45px;
+        overflow: hidden;
+        position: relative;
+
     }
 .clients h1{
     -webkit-text-stroke: 1px #0000001a;
     color: #fff;
     font-size: 10rem;
-    position: relative;
-    top: 115px;
     z-index: -999;
+    padding-left: 50px;
 }
-.clients h3{
+.clients h3 {
     -webkit-text-stroke: 1px #000;
     color: #000;
     font-size: 2.5rem;
-    margin: 31px;
+    position: absolute;
+    top: 100px;
+    left: 60px;
 }
+
 .clients .par{
-    margin: 95px 0 0 29px;
     font-size: 1.5rem;
     color: #9c9b9b;
 }
+/* 
 p.one,p.tow,p.three{
     position: absolute;
     top: 20px;
-    left: 45px;}
+    left: 45px;
+}
+
 .clients .one{
     position: absolute;
     left: 165px;
@@ -269,26 +280,32 @@ p.one,p.tow,p.three{
 position: absolute;
     left: 60px;
     top: 160px;
-}
+} */
     /* End clients section */
 
 
     /* start latest news section */
-    .latest_news h1{
+
+    .latest_news{
+        margin: 0;
+        overflow: hidden;
         position: relative;
-        top: 20px;
-        left: 30px;
-        font-size: 7rem;
+    }
+    .latest_news h1{
+    padding-left: 50px;
+    font-size: 7rem;
     -webkit-text-stroke: 1px #00000014;
     color: #fff;
     z-index: -999;
     }
 
-    .latest_news h3{
-        margin: -60px 0 40px 52px;
+    .latest_news h3 {
         -webkit-text-stroke: 1px #000;
-        font-family: monospace;
         font-size: 2.5rem;
+        position: absolute;
+        top: 60px;
+        left: 80px;
+        font-family: inherit;
     }
     .latest_news .card{
         width: 100% !important;
@@ -305,3 +322,33 @@ position: absolute;
         
     }
     /* End latest news section */
+
+    /* start contact section */
+    .contact{
+        margin-top: 50px;
+        padding:30px;
+        background-color: #f7fbfb;
+        position: relative;
+    }
+    .contact h1{
+        padding-left: 50px;
+        font-size: 7rem;
+        -webkit-text-stroke: 1px #806f6f14;
+        color: #fff;
+        z-index: -999;
+    }
+    .contact h2 {
+        position: absolute;
+        left: 124px;
+        top: 85px;
+        font-size: 3rem;
+        font-family: fantasy;
+    }
+    .contact form{
+        width: 90%;
+        padding: 10px;
+    }
+    .contact form button{
+        margin-top: 10px;
+    }
+    /* end contact section */

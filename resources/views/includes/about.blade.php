@@ -1,7 +1,7 @@
 <div class="about">
     <div class="left">
         @foreach ($about as $item)
-        <img src="/images/About/{{$item->image}}" alt="" width="100%" height="100%">
+        <img src="/images/About/{{$item->image}}" alt="" width="100%" height="80%">
         @endforeach
     </div>
     <div class="right">

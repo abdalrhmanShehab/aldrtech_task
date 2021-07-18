@@ -13,7 +13,7 @@
           </div>
           <div class="mb-3">
             <label for="formFile" class="form-label">Enter data-class</label>
-            <input class="form-control" type="text" id="formFile" name="dataclass">
+            <input class="form-control" type="text" id="formFile" name="data_class">
           </div>
           <div class="mb-3">
             <label for="formFile" class="form-label">Enter title</label>

@@ -1,7 +1,7 @@
 @extends('Admin.dashboard')
 
 @section('content')
-    <form method="POST" action="{{route('dashboard.storeAbout')}}" enctype="multipart/form-data">
+    <form method="POST" action="{{route('dashboard.storeNews')}}" enctype="multipart/form-data">
         @csrf
         <div class="mb-3">
           <label for="formFile" class="form-label">Select Your Images</label>

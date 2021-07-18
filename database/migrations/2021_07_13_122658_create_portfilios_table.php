@@ -18,7 +18,7 @@ class CreatePortfiliosTable extends Migration
             $table->string('name');
             $table->string('data_class');
             $table->string('image');
-            $table->string('ttile');
+            $table->string('title');
             $table->string('text');
             $table->timestamps();
         });

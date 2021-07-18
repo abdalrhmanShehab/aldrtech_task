@@ -33,3 +33,6 @@ Route::post('/dashboard/store-client', [dashboardController::class, 'storeClient
 
 Route::get('/dashboard/create-news', [dashboardController::class, 'createNews'])->name('dashboard.createNews');
 Route::post('/dashboard/store-news', [dashboardController::class, 'storeNews'])->name('dashboard.storeNews');
+
+
+

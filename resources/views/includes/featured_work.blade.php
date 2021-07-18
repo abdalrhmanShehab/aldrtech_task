@@ -1,5 +1,4 @@
     <section class="featured">
-        <div class="container">
             <h1>Portfilio</h1>
             <h2>Featured Work</h2>
             <ul class="list-unstyled">
@@ -12,7 +11,7 @@
                 <li data-class=".adobe-xd">Adobe XD</li>
                 <li data-class=".illustrator">Illustrator</li> --}}
                 @foreach ($portfilio as $item)
-                    <li data-class=".{{$item->dataclass}}">{{$item->name}}</li>
+                    <li data-class=".{{$item->data_class}}">{{$item->name}}</li>
                 @endforeach
             </ul>
             <div class="cards">
@@ -21,7 +20,7 @@
                     @forelse ($portfilio as $item)
                     <div class="col-md-6 col-lg-4">
                         <div class="shuf">
-                            <div class="card photoshop" style="width: 18rem;">
+                            <div class="card {{$item->data_class}}" style="width: 18rem;">
                             <div class="image">
                                 <img src="/images/Portfilio/{{$item->image}}" class="card-img-top" alt="...">
                             </div>
@@ -35,53 +34,6 @@
                     @empty
                         <p>no images</p>
                     @endforelse
-
-
-                    {{-- <div class="col-md-6 col-lg-4">
-                        <div class="shuf">
-                            <div class="card adobe-xd" style="width: 18rem;">
-                            <div class="image">
-                                <img src="{{asset('images/featured/2.png')}}" class="card-img-top" alt="...">
-                            </div>
-                            </div>
-                        </div>							
-                    </div> --}}
-                    {{-- <div class="col-md-6 col-lg-4">
-                        <div class="shuf">
-                            <div class="card wordpress" style="width: 18rem;">
-                                <div class="image">
-                                    <img src="{{asset('images/featured/3.png')}}" class="card-img-top" alt="...">
-                            </div>
-                            </div>
-                        </div>							
-                    </div> --}}
-                    {{-- <div class="col-md-6 col-lg-4">
-                        <div class="shuf">
-                            <div class="card photoshop" style="width: 18rem;">
-                            <div class="image">
-                                <img src="{{asset('images/featured/4.png')}}" class="card-img-top" alt="...">
-                            </div>
-                            </div>
-                        </div>						
-                    </div> --}}
-                    {{-- <div class="col-md-6 col-lg-4">
-                        <div class="shuf">
-                            <div class="card ui-ix" style="width: 18rem;">
-                            <div class="image">
-                                <img src="{{asset('images/featured/5.png')}}" class="card-img-top" alt="...">
-                            </div>
-                            </div>	
-                        </div>						
-                    </div> --}}
-                    {{-- <div class="col-md-6 col-lg-4">
-                        <div class="shuf">
-                            <div class="card wordpress" style="width: 18rem;">
-                            <div class="image">
-                                <img src="{{asset('images/featured/6.png')}}" class="card-img-top" alt="...">
-                            </div>
-                            </div>	
-                        </div>						
-                    </div> --}}
                 </div>
             </div>
         </div>

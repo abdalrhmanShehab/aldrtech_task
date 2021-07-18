@@ -1,4 +1,4 @@
-    <div class="d-flex justify-content-center">
+    <div class="work d-flex justify-content-center align-items-center">
         
         @foreach ($work as $item)
         <div class="col d-flex justify-content-center">
