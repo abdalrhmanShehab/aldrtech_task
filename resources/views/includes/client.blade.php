@@ -9,9 +9,9 @@
             
         </div>
         <div class="col-md">
-            <img src="{{asset('images/4.jpg')}}" data-class=".one" class="active one img" width="150px" height="150px">
-            <img src="{{asset('images/5.jpg')}}" data-class=".tow" class="tow img" width="150px" height="150px">
-            <img src="{{asset('images/6.jpg')}}" data-class=".three" class="three img" width="150px" height="150px">
+            <img src="{{asset('images/Client/1626576699.jpg')}}" data-class=".one" class="active one img" width="150px" height="150px">
+            <img src="{{asset('images/Client/1626576727.jpg')}}" data-class=".tow" class="tow img" width="150px" height="150px">
+            <img src="{{asset('images/Client/1626576799.jpg')}}" data-class=".three" class="three img" width="150px" height="150px">
         </div>
     </div>
 </section>
